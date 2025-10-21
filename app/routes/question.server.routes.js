@@ -1,3 +1,5 @@
+const question = require("../controllers/question.server.controllers")
+
 module.exports = function(app) {
 
     app.route("/item/:itemId/question")

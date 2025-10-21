@@ -1,3 +1,5 @@
+const auction = require("../controllers/auction.server.controllers")
+
 module.exports = function(app) {
 
     app.route("/search")
