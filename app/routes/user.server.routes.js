@@ -9,4 +9,7 @@ module.exports = function(app) {
 
     app.route("/logout")
         .post(users.logout);
+
+    app.route("/users/:userId")
+        .get(users.get_user_info);
 }
